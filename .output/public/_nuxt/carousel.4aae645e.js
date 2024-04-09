@@ -1,0 +1,1 @@
+import{_ as e}from"./CarouselItem.d2c66d3d.js";import{s as t,o as a,c,a as s,b as o}from"./entry.c97e2f8f.js";const _={class:"mb-10"},n=s("h2",{class:"mb-2"},"Carousel 1",-1),r={class:"mb-10"},l=s("h2",{class:"mb-2"},"Carousel 2",-1),h=t({__name:"carousel",setup(m){return(d,i)=>(a(),c("div",null,[s("div",_,[n,o(e)]),s("div",r,[l,o(e)])]))}});export{h as default};
