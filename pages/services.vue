@@ -9,8 +9,6 @@
           <div class="hover:backdrop-blur-sm  duration-100 p-10" :class="item.gaya">
             <div class="group ">
               <img :src="item.icon" class="w-12" alt="" />
-
-
               <a :href="item.url" class="">
                 <h3 class="text-lg uppercase font-bold pr-6 mt-6">
                   {{ item.judul }}
@@ -47,7 +45,7 @@
             <div class="flex flex-col sm:mb-0">
               <div class="max-w-xl mb-8 md:mx-autolg:max-w-2xl md:mb-12">
                 <div id="judul">
-                  <h1 class=" mb-2 text-3xl font-black leading-none tracking-tight text-blue-00 sm:text-4xl md:mx-auto">
+                  <h1 class=" mb-2 text-3xl font-bold leading-none tracking-tight text-blue-00 sm:text-4xl md:mx-auto">
                     <span class="bg-blue-50 inline-block border border-dashed border-blue-600 m-1 p-2"> {{
                       sliders.aboutus.span }}</span> {{ sliders.aboutus.judul }}
                   </h1>
@@ -106,7 +104,7 @@
         <div class="grid grid-cols-2 md:grid-cols-4">
           <div v-for="item in sliders.services.stats" class="p-6 md:p-12 hover:bg-white">
             <img :src="item.icon" class="w-10" />
-            <h3 class="font-black text-3xl pt-6 text-blue-600">
+            <h3 class="font-bold text-3xl pt-6 text-blue-600">
               {{ item.angka }}
             </h3>
             <p class="text-gray-700 dark:text-gray-300">
@@ -121,7 +119,7 @@
             class="text-white font-semibold pl-6 relative before:absolute before:top-1/2 before:left-0 before:w-5 before:h-px before:bg-white before:rounded-full">
             {{ sliders.services.badge }}
           </h3>
-          <h1 class=" mb-2 text-3xl font-black leading-none tracking-tight  text-yellow-400 sm:text-4xl sm:leading-none"> Layanan seperti <span class="bg-blue-900 inline-block border border-dashed border-blue-600 m-1 p-2">{{ sliders.services.span }}</span> dan lainnya
+          <h1 class=" mb-2 text-3xl font-bold leading-none tracking-tight  text-yellow-400 sm:text-4xl sm:leading-none"> Layanan seperti <span class="bg-blue-900 inline-block border border-dashed border-blue-600 m-1 p-2">{{ sliders.services.span }}</span> dan lainnya
                   </h1>
         
         </div>
@@ -177,7 +175,7 @@
             <div class="flex flex-col sm:mb-0">
               <div class=" mb-8  md:mb-12">
                 <div id="judul">
-                  <h1 class=" mb-2 text-3xl font-black leading-none tracking-tight text-blue-00 sm:text-4xl md:mx-auto">
+                  <h1 class=" mb-2 text-3xl font-bold leading-none tracking-tight text-blue-00 sm:text-4xl md:mx-auto capitalize	">
                     {{ sliders.projects.judul }} <span class="bg-blue-50 inline-block border border-dashed border-blue-600 m-1 p-2"> {{
                       sliders.projects.span }}</span> 
                   </h1>
@@ -227,7 +225,7 @@
 
             <div class="p-4 md:p-5">
               <p class="font-semibold text-gray-500 text-sm mb-6">{{ item.perusahaan }}</p>
-              <h3 class="text-2xl uppercase font-bold text-blue-600">
+              <h3 class="text-2xl capitalize font-bold text-blue-600">
                 {{ item.judul }}
               </h3>
             </div>
@@ -496,7 +494,7 @@ const sliders = {
         "id": 1,
         "url": "/",
         "perusahaan" : "PT. EGS Indonesia",
-        "judul": "Subsea geophysical Survey",
+        "judul": "Subsea geophysical Survey Project",
         "icon": "/icn/bold-11.svg",
         "gambar": "kss-2.png",
         "kat": "Management",
