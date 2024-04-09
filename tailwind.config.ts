@@ -3,6 +3,7 @@ import type { Config } from 'tailwindcss';
 const srcDir = '.';
 const config: Config = {
   content: [
+    'node_modules/preline/dist/*.js',
     `${srcDir}/components/**/*.{vue,js,ts}`,
     `${srcDir}/layouts/**/*.vue`,
     `${srcDir}/pages/**/*.vue`,
@@ -18,6 +19,7 @@ const config: Config = {
     'node_modules/preline/dist/*.js',
     './src/**/*.{html,js}',
   ],
+  
   presets: [
     require('@acmecorp/base-tailwind-config')
   ],

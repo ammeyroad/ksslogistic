@@ -2,6 +2,7 @@
 
 <template>
   <div class="bg-gray-50">
+
     <NuxtLoadingIndicator />
 
   <!-- <header>
@@ -28,8 +29,9 @@
       </div>
     </header>  -->
 
-    <div class="pb-[20px] px-[0px]">
+    <div class="">
       <NuxtPage />
+      <Footer />
     </div>
   </div>
 </template>
