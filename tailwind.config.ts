@@ -49,6 +49,6 @@ const config: Config = {
       }
     }
   },
-  plugins: [require('@tailwindcss/forms'), require('preline/plugin')],
+  plugins: [require('@tailwindcss/forms'), require('preline/plugin'), require('daisyui')],
 };
 export default config;

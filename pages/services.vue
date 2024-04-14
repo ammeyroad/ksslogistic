@@ -28,7 +28,7 @@
       </div>
     </div>
   </section>
-  <section id="about" class="bg-white overflow-hidden min-h-max flex items-center relative">
+  <section id="about" class="bg-white overflow-hidden min-h-max flex items-center bg-auto bg-center relative bg-[url('/bgpattern-2.svg')]">
     <div
       class="absolute top-0 left-0 -translate-x-[34%] -translate-y-[30%] w-4/5 rounded-full aspect-square bg-blue-600/30 backdrop-filter blur-3xl opacity-30">
     </div>
@@ -48,7 +48,7 @@
               <div class="max-w-xl mb-8 md:mx-autolg:max-w-2xl md:mb-12">
                 <div id="judul">
                   <h1 class=" mb-2 text-3xl font-bold leading-none tracking-tight text-blue-00 sm:text-4xl md:mx-auto">
-                    <span class="bg-blue-50 inline-block border border-dashed border-blue-600 m-1 p-2"> {{
+                    <span class="bg-blue-50 inline-block text-pink border border-dashed border-blue-600 m-1 p-2"> {{
                       sliders.aboutus.span }}</span> {{ sliders.aboutus.judul }}
                   </h1>
                   <p class=" font-medium mt-4">
